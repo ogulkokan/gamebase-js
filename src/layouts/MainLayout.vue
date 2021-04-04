@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          Game Base
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
@@ -51,16 +51,14 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksData = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
+    title: 'Main Page',
     icon: 'school',
-    link: 'https://quasar.dev'
+    to: '/'
   },
   {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
+    title: 'Monster Slayer',
+    icon: 'gamepad',
+    to: '/monsterslayer'
   },
   {
     title: 'Discord Chat Channel',
